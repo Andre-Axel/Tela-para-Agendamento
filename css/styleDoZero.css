@@ -1,0 +1,38 @@
+/*Criar uma variavel de referencia para o endereço da fonte*/
+@font-face{
+    font-family:Poppins-Bold;
+    src: url('../fonts/Poppins-Bold.ttf')
+}
+@font-face{
+    font-family:Poppins-Medium;
+    src: url('../fonts/Poppins-Medium.ttf')
+
+}
+
+body{
+    font-size: 28px;
+    font-family: Poppins-Bold;
+    background-color: white;
+    text-align: center; /*Centralizar o texto*/
+}
+
+.text1{
+        font-size: 40px;
+        color: black;
+        font: bolder;
+}
+button{
+    background-color: #1B98E0;
+    border-radius: 15px;
+    padding: 0 25px;
+    height: 80px; /*altura*/
+    width: 190px;/*largura*/
+    border-color: wheat;
+    margin: /*10px 50px 20px 0;*/ 3% 10px;
+}
+.text{
+    font-size: 20px;
+    font-family: Poppins-Medium;
+    color: white;
+    font: bolder;
+}
