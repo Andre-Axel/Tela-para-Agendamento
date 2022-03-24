@@ -9,30 +9,337 @@
 
 }
 
-body{
-    font-size: 28px;
-    font-family: Poppins-Bold;
-    background-color: white;
-    text-align: center; /*Centralizar o texto*/
+.img {
+    background: url("../imagens/anhanguera.png");
+    position: absolute;
+    height: 120px;
+    width: 390px;
+    left: 100px;
+    top: 19px;
+    border-radius: 0px;
 }
 
 .text1{
-        font-size: 40px;
+        height: 100px;
+        width: 550px;
+        left: 30px;
+        top: 140px;
+        position: absolute;
+
+        font-family: Poppins-Bold;
         color: black;
-        font: bolder;
+        text-align: center;
+        font-size: 35px;
+        line-height: 50px;
+        
+        text-shadow: 0px 4px 4px 
+        rgba(0,0,0,0.25);
+        
 }
-button{
-    background-color: #1B98E0;
-    border-radius: 15px;
-    padding: 0 25px;
-    height: 80px; /*altura*/
-    width: 190px;/*largura*/
-    border-color: wheat;
-    margin: /*10px 50px 20px 0;*/ 3% 10px;
+
+.text2{
+    position: absolute;
+    width: 480px;
+    height: 199px;
+    top: 320px;
+    left: 50px;
+    text-align: left;
+
+    font-size: 20px;
+    font-family: Poppins-Medium;
+    color: black;
+    font-size: 20px;
+    line-height: 24px;
+
+    text-shadow: 0px 4px 4px 
+    rgba(0, 0, 0, 0.25);
 }
+
 .text{
     font-size: 20px;
     font-family: Poppins-Medium;
     color: white;
     font: bolder;
+    text-shadow: 1.5px 1.5px 1.5px black;
 }
+
+/*Fila1*/
+.button1{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; /*altura*/
+    width: 175px;/*largura*/
+    left: 753px;
+    top: 80px;
+    border-color: 1px solid #9B765A;  
+}
+.button2{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px;
+    width: 175px;
+    left: 950px;
+    top: 80px;
+    border-color: 1px solid #9B765A;  
+    
+}
+.button3{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px;
+    width: 175px;
+    left: 1146px;
+    top: 80px;
+    border-color: 1px solid #9B765A;  
+}
+/*Fila2*/
+.button4{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; /*altura*/
+    width: 175px;/*largura*/
+    left: 753px;
+    top: 160px;
+    border-color: 1px solid #9B765A;  
+}
+.button5{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; 
+    width: 175px;
+    left: 950px;
+    top: 160px;
+    border-color: 1px solid #9B765A;  
+}
+.button6{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; 
+    width: 175px;
+    left: 1146px;
+    top: 160px;
+    border-color: 1px solid #9B765A;  
+}
+/*Fila3*/
+.button7{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; /*altura*/
+    width: 175px;/*largura*/
+    left: 753px;
+    top: 240px;
+    border-color: 1px solid #9B765A;  
+}
+.button8{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; /*altura*/
+    width: 175px;/*largura*/
+    left: 950px;
+    top: 240px;
+    border-color: 1px solid #9B765A;  
+}
+.button9{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; /*altura*/
+    width: 175px;/*largura*/
+    left: 1146px;
+    top: 240px;
+    border-color: 1px solid #9B765A; 
+}
+/*Fila4*/
+.button10{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; /*altura*/
+    width: 175px;/*largura*/
+    left: 753px;
+    top: 320px;
+    border-color: 1px solid #9B765A; 
+}
+.button11{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; /*altura*/
+    width: 175px;/*largura*/
+    left: 950px;
+    top: 320px;
+    border-color: 1px solid #9B765A; 
+}
+.button12{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; /*altura*/
+    width: 175px;/*largura*/
+    left: 1146px;
+    top: 320px;
+    border-color: 1px solid #9B765A; 
+}
+/*Fila5*/
+.button13{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; /*altura*/
+    width: 175px;/*largura*/
+    left: 753px;
+    top: 400px;
+    border-color: 1px solid #9B765A;  
+}
+
+.button14{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; /*altura*/
+    width: 175px;/*largura*/
+    left: 950px;
+    top: 400px;
+    border-color: 1px solid #9B765A;  
+}
+.button15{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; /*altura*/
+    width: 175px;/*largura*/
+    left: 1146px;
+    top: 400px;
+    border-color: 1px solid #9B765A;  
+}
+/*Fila6*/
+.button16{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; /*altura*/
+    width: 175px;/*largura*/
+    left: 753px;
+    top: 480px;
+    border-color: 1px solid #9B765A;  
+}
+.button17{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; /*altura*/
+    width: 175px;/*largura*/
+    left: 950px;
+    top: 480px;
+    border-color: 1px solid #9B765A;  
+}
+.button18{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; /*altura*/
+    width: 175px;/*largura*/
+    left: 1146px;
+    top: 480px;
+    border-color: 1px solid #9B765A;  
+}
+/**/
+.button19{
+    background-color: #FC7A31;
+    position: absolute;
+    border-radius: 15px;
+    height: 68px; /*altura*/
+    width: 175px;/*largura*/
+    left: 950px;
+    top: 560px;
+    border-color: 1px solid #9B765A;  
+}
+
+
+/*efeito no botão*/
+.button1:hover{  
+    cursor: pointer;
+    background-color: #333333;
+}
+.button2:hover{  
+    cursor: pointer;
+    background-color: #333333;
+}
+.button3:hover{  
+    cursor: pointer;
+    background-color: #333333;
+}
+.button4:hover{  
+    cursor: pointer;
+    background-color: #333333;
+}
+.button5:hover{  
+    cursor: pointer;
+    background-color: #333333;
+}
+.button6:hover{  
+    cursor: pointer;
+    background-color: #333333;
+}
+.button7:hover{ 
+    cursor: pointer;
+    background-color: #333333;
+}
+.button8:hover{ 
+    cursor: pointer;
+    background-color: #333333;
+}
+.button9:hover{ 
+    cursor: pointer;
+    background-color: #333333;
+}
+.button10:hover{ 
+    cursor: pointer;
+    background-color: #333333;
+}
+.button11:hover{ 
+    cursor: pointer;
+    background-color: #333333;
+}
+.button12:hover{ 
+    cursor: pointer;
+    background-color: #333333;
+}
+.button13:hover{ 
+    cursor: pointer;
+    background-color: #333333;
+}
+.button14:hover{ 
+    cursor: pointer;
+    background-color: #333333;
+}
+.button15:hover{ 
+    cursor: pointer;
+    background-color: #333333;
+}
+.button16:hover{ 
+    cursor: pointer;
+    background-color: #333333;
+}
+.button17:hover{ 
+    cursor: pointer;
+    background-color: #333333;
+}
+.button18:hover{ 
+    cursor: pointer;
+    background-color: #333333;
+}
+.button19:hover{ 
+    cursor: pointer;
+    background-color: #333333;
+}
+
+
