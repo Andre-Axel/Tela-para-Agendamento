@@ -17,6 +17,21 @@
     left: 100px;
     top: 19px;
     border-radius: 0px;
+    transform: translatey(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+/*Animação da imagem*/
+@keyframes float {
+    0%{
+        transform: translatey(0px);
+    }
+    50%{
+        transform: translatey(-20px);
+    } 
+    100%{
+        transform: translatey(0px);
+    }
 }
 
 .text1{
@@ -62,284 +77,140 @@
     font: bolder;
     text-shadow: 1.5px 1.5px 1.5px black;
 }
-
-/*Fila1*/
-.button1{
-    background-color: #FC7A31;
+button{
+    background-color:#ff6900;
     position: absolute;
     border-radius: 15px;
+    border-color: 1px solid #9B765A;
+}
+/*Fila1*/
+.button1{
     height: 68px; /*altura*/
     width: 175px;/*largura*/
     left: 753px;
     top: 80px;
-    border-color: 1px solid #9B765A;  
 }
 .button2{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px;
     width: 175px;
     left: 950px;
     top: 80px;
-    border-color: 1px solid #9B765A;  
-    
 }
 .button3{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px;
     width: 175px;
     left: 1146px;
     top: 80px;
-    border-color: 1px solid #9B765A;  
 }
 /*Fila2*/
 .button4{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px;
     width: 175px;
     left: 753px;
     top: 160px;
-    border-color: 1px solid #9B765A;  
 }
 .button5{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px; 
     width: 175px;
     left: 950px;
     top: 160px;
-    border-color: 1px solid #9B765A;  
 }
 .button6{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px; 
     width: 175px;
     left: 1146px;
     top: 160px;
-    border-color: 1px solid #9B765A;  
 }
 /*Fila3*/
 .button7{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px; 
     width: 175px;
     left: 753px;
     top: 240px;
-    border-color: 1px solid #9B765A;  
 }
 .button8{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px;
     width: 175px;
     left: 950px;
     top: 240px;
-    border-color: 1px solid #9B765A;  
 }
 .button9{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px; 
     width: 175px;
     left: 1146px;
     top: 240px;
-    border-color: 1px solid #9B765A; 
 }
 /*Fila4*/
 .button10{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px;
     width: 175px;
     left: 753px;
     top: 320px;
-    border-color: 1px solid #9B765A; 
 }
 .button11{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px; 
     width: 175px;
     left: 950px;
     top: 320px;
-    border-color: 1px solid #9B765A; 
 }
 .button12{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px;
     width: 175px;
     left: 1146px;
     top: 320px;
-    border-color: 1px solid #9B765A; 
 }
 /*Fila5*/
 .button13{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px;
     width: 175px;
     left: 753px;
     top: 400px;
-    border-color: 1px solid #9B765A;  
 }
-
 .button14{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px;
     width: 175px;
     left: 950px;
     top: 400px;
-    border-color: 1px solid #9B765A;  
 }
 .button15{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px;
     width: 175px;
     left: 1146px;
     top: 400px;
-    border-color: 1px solid #9B765A;  
 }
 /*Fila6*/
 .button16{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px;
     width: 175px;
     left: 753px;
     top: 480px;
-    border-color: 1px solid #9B765A;  
 }
 .button17{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px;
     width: 175px;
     left: 950px;
     top: 480px;
-    border-color: 1px solid #9B765A;  
 }
 .button18{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px;
     width: 175px;
     left: 1146px;
     top: 480px;
-    border-color: 1px solid #9B765A;  
 }
-/**/
+/*Fila7*/
 .button19{
-    background-color: #FC7A31;
-    position: absolute;
-    border-radius: 15px;
     height: 68px;
     width: 175px;
     left: 950px;
     top: 560px;
-    border-color: 1px solid #9B765A;  
+    
 }
-
 
 /*efeito no botão*/
-.button1:hover{  
+button:hover{  
     cursor: pointer;
     background-color: #333333;
-}
-.button2:hover{  
-    cursor: pointer;
-    background-color: #333333;
-}
-.button3:hover{  
-    cursor: pointer;
-    background-color: #333333;
-}
-.button4:hover{  
-    cursor: pointer;
-    background-color: #333333;
-}
-.button5:hover{  
-    cursor: pointer;
-    background-color: #333333;
-}
-.button6:hover{  
-    cursor: pointer;
-    background-color: #333333;
-}
-.button7:hover{ 
-    cursor: pointer;
-    background-color: #333333;
-}
-.button8:hover{ 
-    cursor: pointer;
-    background-color: #333333;
-}
-.button9:hover{ 
-    cursor: pointer;
-    background-color: #333333;
-}
-.button10:hover{ 
-    cursor: pointer;
-    background-color: #333333;
-}
-.button11:hover{ 
-    cursor: pointer;
-    background-color: #333333;
-}
-.button12:hover{ 
-    cursor: pointer;
-    background-color: #333333;
-}
-.button13:hover{ 
-    cursor: pointer;
-    background-color: #333333;
-}
-.button14:hover{ 
-    cursor: pointer;
-    background-color: #333333;
-}
-.button15:hover{ 
-    cursor: pointer;
-    background-color: #333333;
-}
-.button16:hover{ 
-    cursor: pointer;
-    background-color: #333333;
-}
-.button17:hover{ 
-    cursor: pointer;
-    background-color: #333333;
-}
-.button18:hover{ 
-    cursor: pointer;
-    background-color: #333333;
-}
-.button19:hover{ 
-    cursor: pointer;
-    background-color: #333333;
-}
+    transform: scale(1.15);
+    transition: all 0.5s;
 
-
+}
