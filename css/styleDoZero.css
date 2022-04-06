@@ -20,7 +20,6 @@
     transform: translatey(0px);
     animation: float 5s ease-in-out infinite;
 }
-
 /*Animação da imagem*/
 @keyframes float {
     0%{
@@ -79,103 +78,34 @@
 }
 button{
     background-color:#ff6900;
+    margin-left: 15px;
+    margin-top:  15px;
     height: 68px;
-    width: 175px;
+    width: 170px;
     border-radius: 15px;
-    position: absolute;
     border-color: 1px solid #9B765A;
     box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42); /*NOVO*/
 }
-/*Fila1*/
+.teste{
+    display: flex;
+    float:right;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 570px;
+    border-radius: 20px;
+}
 .button1{
-    left: 753px;
-    top: 80px;
-}
-.button2{
-    left: 950px;
-    top: 80px;
-}
-.button3{
-    left: 1146px;
-    top: 80px;
-}
-/*Fila2*/
-.button4{
-    left: 753px;
-    top: 160px;
-}
-.button5{
-    left: 950px;
-    top: 160px;
-}
-.button6{
-    left: 1146px;
-    top: 160px;
-}
-/*Fila3*/
-.button7{
-    left: 753px;
-    top: 240px;
-}
-.button8{
-    left: 950px;
-    top: 240px;
-}
-.button9{
-    left: 1146px;
-    top: 240px;
-}
-/*Fila4*/
-.button10{
-    left: 753px;
-    top: 320px;
-}
-.button11{
-    left: 950px;
-    top: 320px;
-}
-.button12{
-    left: 1146px;
-    top: 320px;
-}
-/*Fila5*/
-.button13{
-    left: 753px;
-    top: 400px;
-}
-.button14{
-    left: 950px;
-    top: 400px;
-}
-.button15{
-    left: 1146px;
-    top: 400px;
-}
-/*Fila6*/
-.button16{
-    left: 753px;
-    top: 480px;
-}
-.button17{
-    left: 950px;
-    top: 480px;
-}
-.button18{
-    left: 1146px;
-    top: 480px;
-}
-/*Fila7*/
-.button19{
-    left: 950px;
-    top: 560px;
-    
+    position: absolute;
+    height: 68px;
+    width: 175px;
+    left: 975px;
+    top: 540px;
 }
 
 /*efeito no botão*/
-button:hover{  
+button:hover{ 
     cursor: pointer;
     background-color: #333333;
     transform: scale(1.15);
     transition: all 0.5s;
-
 }
