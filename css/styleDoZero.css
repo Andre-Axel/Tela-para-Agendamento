@@ -84,7 +84,7 @@ button{
     width: 170px;
     border-radius: 15px;
     border-color: 1px solid #9B765A;
-    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42); /*NOVO*/
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
 }
 .teste{
     display: flex;
@@ -101,7 +101,6 @@ button{
     left: 975px;
     top: 540px;
 }
-
 /*efeito no botão*/
 button:hover{ 
     cursor: pointer;
